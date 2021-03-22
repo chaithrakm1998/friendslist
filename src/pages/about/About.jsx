@@ -19,7 +19,7 @@ export default function About(){
       </Link>
       </div>
         </div>
-        <div className="d-flex justify-content-center"><h1>ABOUT</h1></div>
+        <div className="d-flex justify-content-center">ABOUT</div>
         <div className="content">Hello..!!!</div>
         </div>
     )

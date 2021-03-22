@@ -13,62 +13,122 @@ class Directory extends React.Component {
           title: 'Mr Janique Costa',
           imageUrl: 'https://randomuser.me/api/portraits/med/men/42.jpg',
           id: 1,
-          linkUrl: 'name1'
+          linkUrl: 'name'
         },
         {
           title: 'Mr Khaled Borresen',
           imageUrl: 'https://randomuser.me/api/portraits/med/men/25.jpg',
           id: 2,
-          linkUrl: 'name2'
+          linkUrl: 'name'
         },
         {
           title: 'Miss Maja Kristensen',
           imageUrl: 'https://randomuser.me/api/portraits/med/women/12.jpg',
           id: 3,
-          linkUrl: 'name3'
+          linkUrl: 'name'
         },
         {
           title: 'Mrs Latife Cevik',
           imageUrl: 'https://randomuser.me/api/portraits/med/women/4.jpg',
           id: 4,
-          linkUrl: 'name4'
+          linkUrl: 'name'
         },
         {
           title: 'Mrs Sayenne Leendertse',
           imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
           id: 5,
-          linkUrl: 'name5'
+          linkUrl: 'name'
         },
         {
             title: 'Mrs Sayenne Leendertse',
             imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
-            id: 5,
-            linkUrl: 'name6'
+            id: 6,
+            linkUrl: 'name'
+          },
+          {
+            title: 'Mrs Sayenne Leendertse',
+            imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
+            id: 7,
+            linkUrl: 'name'
+          },
+          {
+            title: 'Mrs Sayenne Leendertse',
+            imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
+            id: 8,
+            linkUrl: 'name'
+          },
+          {
+            title: 'Mrs Sayenne Leendertse',
+            imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
+            id: 9,
+            linkUrl: 'name'
+          },
+          {
+            title: 'Mrs Sayenne Leendertse',
+            imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
+            id: 10,
+            linkUrl: 'name'
+          },
+          {
+            title: 'Mr Janique Costa',
+            imageUrl: 'https://randomuser.me/api/portraits/med/men/42.jpg',
+            id: 1,
+            linkUrl: 'name'
+          },
+          {
+            title: 'Mr Khaled Borresen',
+            imageUrl: 'https://randomuser.me/api/portraits/med/men/25.jpg',
+            id: 2,
+            linkUrl: 'name'
+          },
+          {
+            title: 'Miss Maja Kristensen',
+            imageUrl: 'https://randomuser.me/api/portraits/med/women/12.jpg',
+            id: 3,
+            linkUrl: 'name'
+          },
+          {
+            title: 'Mrs Latife Cevik',
+            imageUrl: 'https://randomuser.me/api/portraits/med/women/4.jpg',
+            id: 4,
+            linkUrl: 'name'
           },
           {
             title: 'Mrs Sayenne Leendertse',
             imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
             id: 5,
-            linkUrl: 'name7'
+            linkUrl: 'name'
           },
           {
-            title: 'Mrs Sayenne Leendertse',
-            imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
-            id: 5,
-            linkUrl: 'name8'
-          },
-          {
-            title: 'Mrs Sayenne Leendertse',
-            imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
-            id: 5,
-            linkUrl: 'name9'
-          },
-          {
-            title: 'Mrs Sayenne Leendertse',
-            imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
-            id: 5,
-            linkUrl: 'name10'
-          }
+              title: 'Mrs Sayenne Leendertse',
+              imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
+              id: 6,
+              linkUrl: 'name'
+            },
+            {
+              title: 'Mrs Sayenne Leendertse',
+              imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
+              id: 7,
+              linkUrl: 'name'
+            },
+            {
+              title: 'Mrs Sayenne Leendertse',
+              imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
+              id: 8,
+              linkUrl: 'name'
+            },
+            {
+              title: 'Mrs Sayenne Leendertse',
+              imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
+              id: 9,
+              linkUrl: 'name'
+            },
+            {
+              title: 'Mrs Sayenne Leendertse',
+              imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
+              id: 10,
+              linkUrl: 'name'
+            }
       ]
     };
   }

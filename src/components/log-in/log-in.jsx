@@ -3,7 +3,7 @@ import GoogleLogin from '../social/GoogleLogin'
 
 import {Link} from 'react-router-dom';
 import { auth } from '../../firebase';
-//import './sign-in.scss';
+import './log-in.styles.scss';
 class LogIn extends React.Component {
   constructor(props) {
     super(props);
@@ -37,7 +37,7 @@ class LogIn extends React.Component {
   render() {
     
     return (
-      <div>
+      <div className="container">
         
             
        <div className="d-flex justify-content-center"><h1>Login</h1></div>

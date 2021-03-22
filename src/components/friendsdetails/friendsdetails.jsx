@@ -1,30 +1,34 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import './friendsdetails.styles.scss'
-import { Button,Card, } from 'react-bootstrap';
+import CardDeck from 'react-bootstrap/CardDeck';
+import { Button,Card } from 'react-bootstrap';
+import './friendsdetails.styles.scss';
+<span>Friends List</span> 
 const Friends = ({ title, imageUrl, size, history, linkUrl, match }) => (
-    <div
-      className={`${size} friends`}
-      onClick={() => history.push(`${match.url}${linkUrl}`)}
-    >
+  
+  <CardDeck>
+   
+  <Card>
+    <Card.Body>
+      <Card.Title></Card.Title>
       <div
-        className='background-image'
-        style={{
-          backgroundImage: `url(${imageUrl})`
-        }}
-      />
-     <Card style={{ width: '90rem' }}>
-  
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
+    className={`${size} friends`}
+    onClick={() => history.push(`${match.url}${linkUrl}`)}
+  >
+  <div
+      className='background-image'
+      style={{
+        backgroundImage: `url(${imageUrl})`
+      }}
+    />
     </div>
-  );
-  
-  export default withRouter(Friends);
+      <Card.Text className='names' >
+      {title.toUpperCase()}
+      </Card.Text>
+    </Card.Body>
+  </Card >
+  {'\n'}
+</CardDeck>
+);
+
+export default withRouter(Friends);

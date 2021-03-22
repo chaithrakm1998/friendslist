@@ -6,10 +6,9 @@ import './homepage.styles.scss';
 
 const HomePage = () => (
   <div>
-    <div className='homepage'>
-    <Header/>
-  </div>
+ <Header/>
   <div className= 'list'>
+ 
       <Directory/>
     </div>
   </div>
