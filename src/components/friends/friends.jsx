@@ -2,8 +2,8 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import CardDeck from 'react-bootstrap/CardDeck';
 import { Button,Card } from 'react-bootstrap';
-import './friendsdetails.styles.scss';
-<span>Friends List</span> 
+import './friends.styles.scss';
+
 const Friends = ({ title, imageUrl, size, history, linkUrl, match }) => (
   
   <CardDeck>

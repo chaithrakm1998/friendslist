@@ -1,7 +1,7 @@
 import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Header from './components/header/header'
+import Details from './pages/details/details'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import  SignUpPage from './pages/signuppage/signuppage';
 import  LogInPage from './pages/loginpage/loginpage';
@@ -16,6 +16,7 @@ function App() {
             <Route path="/sign-up" component={SignUpPage} />
             <Route path="/homepage" component={HomePage} />
             <Route path="/about" component={About}/>
+            <Route exact path='/details/:id' component={Details} />
           </Switch>
      </Router>
   );
