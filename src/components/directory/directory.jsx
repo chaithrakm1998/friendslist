@@ -43,24 +43,31 @@ class Directory extends React.Component {
             title: 'Mrs Sayenne Leendertse',
             imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
             id: 5,
-            linkUrl: 'name5'
+            linkUrl: 'name6'
           },
           {
             title: 'Mrs Sayenne Leendertse',
             imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
             id: 5,
-            linkUrl: 'name5'
-          }, {
-            title: 'Mrs Sayenne Leendertse',
-            imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
-            id: 5,
-            linkUrl: 'name5'
+            linkUrl: 'name7'
           },
           {
             title: 'Mrs Sayenne Leendertse',
             imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
             id: 5,
-            linkUrl: 'name5'
+            linkUrl: 'name8'
+          },
+          {
+            title: 'Mrs Sayenne Leendertse',
+            imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
+            id: 5,
+            linkUrl: 'name9'
+          },
+          {
+            title: 'Mrs Sayenne Leendertse',
+            imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg',
+            id: 5,
+            linkUrl: 'name10'
           }
       ]
     };
