@@ -31,6 +31,17 @@ constructor(){
   .catch((error) => {
    console.log(error);
   });
+    };
+
+    onLogout = () => {
+        firebase.auth().signOut().then(() => {
+            // Sign-out successful.
+          }).catch((error) => {
+            // An error happened.
+          });
+          this.setState({
+              isLogIn: false
+          })
     }
     componentDidMount=() =>{
         firebase.auth().onAuthStateChanged(function(user) {
@@ -64,6 +75,7 @@ constructor(){
                 </div>
                 <div className="card-body">
                     <h5>{this.state.name}</h5>
+                   < button type="button" className="btn btn-danger" onClick={this.onLogout}>Log Out</button>
                 </div>
                 </>
             }
